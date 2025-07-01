@@ -13,6 +13,7 @@ import CB3 from '../assets/CB3.jpeg'
 import { Button } from '../Components/ui/button'
 import { motion } from "framer-motion";
 import Tilt from 'react-parallax-tilt';
+import ScrollReveal from '../Components/ScrollReveal'
 
 
 
@@ -139,9 +140,14 @@ const Home = () => {
           <Shield className='w-5 h-5 text-blue-400' />
           <h3 className="text-lg font-semibold">What is Social Engineering?</h3>
         </div>
-        <p className="text-gray-300 text-sm md:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit voluptate dolores laborum ducimus amet, aperiam placeat modi culpa odio nulla hic voluptatum excepturi veniam ex odit sint maiores eius nihil fuga impedit esse neque eum dicta! Officia impedit aspernatur voluptatibus eum nihil vel ex fugit corrupti perspiciatis et odit sint numquam officiis saepe deleniti, veritatis accusantium est. Sapiente inventore magnam ducimus rem excepturi delectus quod ipsa architecto expedita? Culpa ex repellat perspiciatis, voluptates consectetur eos? Voluptatibus, debitis saepe repudiandae eligendi maxime nam error vero facilis. Accusantium, quae. Placeat nemo dignissimos quasi laudantium dicta. Quisquam cum officiis voluptatibus blanditiis repellat voluptatem magni assumenda non iusto reiciendis rem sunt natus, architecto molestiae itaque? Dicta, veritatis dignissimos doloremque omnis voluptatem animi nesciunt, illo officia fugiat cum sunt, minus velit itaque corrupti? Voluptatem!
-        </p>
+        <ScrollReveal
+  baseOpacity={0}
+  enableBlur={true}
+  baseRotation={5}
+  blurStrength={10}
+>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum eligendi tempore asperiores, aliquam repellat tempora corrupti sapiente aspernatur possimus esse illo eos dicta ratione veniam expedita, veritatis obcaecati aliquid? Aspernatur, sed excepturi incidunt, quibusdam totam cum saepe quam eum ipsa, doloremque neque quas magnam sapiente! Atque laboriosam excepturi odit sunt distinctio, commodi ipsum cupiditate tempora saepe deserunt debitis voluptate eius est, eveniet veniam aliquam suscipit nostrum similique. Placeat odio fuga voluptates, expedita error architecto, necessitatibus accusantium cum explicabo, tempore in quis ipsam aspernatur optio sint voluptas minus! Doloribus rerum aliquam facere porro inventore. Pariatur animi sed corrupti tempora voluptatibus expedita. Alias eveniet, quia excepturi recusandae sit corporis maxime dolores expedita porro, consequatur mollitia minus nostrum culpa consequuntur qui aperiam rem id molestiae. Harum odio minima id esse repellat fugit.
+</ScrollReveal>
       </div>
 
     </div>
@@ -173,9 +179,14 @@ const Home = () => {
     <Shield className='w-5 h-5 text-blue-400' />
     <h3 className="text-lg font-semibold">Heading</h3>
   </div>
-  <p className="text-gray-300 text-sm md:text-base">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit voluptate dolores laborum ducimus amet, aperiam placeat modi culpa odio nulla hic voluptatum excepturi veniam ex odit sint maiores eius nihil fuga impedit esse neque eum dicta! Officia impedit aspernatur voluptatibus eum nihil vel ex fugit corrupti perspiciatis et odit sint numquam officiis saepe deleniti, veritatis accusantium est. Sapiente inventore magnam ducimus rem excepturi delectus quod ipsa architecto expedita? Culpa ex repellat perspiciatis, voluptates consectetur eos? Voluptatibus, debitis saepe repudiandae eligendi maxime nam error vero facilis. Accusantium, quae. Placeat nemo dignissimos quasi laudantium dicta. Quisquam cum officiis voluptatibus blanditiis repellat voluptatem magni assumenda non iusto reiciendis rem sunt natus, architecto molestiae itaque? Dicta, veritatis dignissimos doloremque omnis voluptatem animi nesciunt, illo officia fugiat cum sunt, minus velit itaque corrupti? Voluptatem!
-  </p>
+  <ScrollReveal
+  baseOpacity={0}
+  enableBlur={true}
+  baseRotation={5}
+  blurStrength={10}
+>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum eligendi tempore asperiores, aliquam repellat tempora corrupti sapiente aspernatur possimus esse illo eos dicta ratione veniam expedita, veritatis obcaecati aliquid? Aspernatur, sed excepturi incidunt, quibusdam totam cum saepe quam eum ipsa, doloremque neque quas magnam sapiente! Atque laboriosam excepturi odit sunt distinctio, commodi ipsum cupiditate tempora saepe deserunt debitis voluptate eius est, eveniet veniam aliquam suscipit nostrum similique. Placeat odio fuga voluptates, expedita error architecto, necessitatibus accusantium cum explicabo, tempore in quis ipsam aspernatur optio sint voluptas minus! Doloribus rerum aliquam facere porro inventore. Pariatur animi sed corrupti tempora voluptatibus expedita. Alias eveniet, quia excepturi recusandae sit corporis maxime dolores expedita porro, consequatur mollitia minus nostrum culpa consequuntur qui aperiam rem id molestiae. Harum odio minima id esse repellat fugit.
+</ScrollReveal>
 </div>
 
 </div>
@@ -207,9 +218,17 @@ const Home = () => {
     <Shield className='w-5 h-5 text-blue-400' />
     <h3 className="text-lg font-semibold">Heading</h3>
   </div>
-  <p className="text-gray-300 text-sm md:text-base">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit voluptate dolores laborum ducimus amet, aperiam placeat modi culpa odio nulla hic voluptatum excepturi veniam ex odit sint maiores eius nihil fuga impedit esse neque eum dicta! Officia impedit aspernatur voluptatibus eum nihil vel ex fugit corrupti perspiciatis et odit sint numquam officiis saepe deleniti, veritatis accusantium est. Sapiente inventore magnam ducimus rem excepturi delectus quod ipsa architecto expedita? Culpa ex repellat perspiciatis, voluptates consectetur eos? Voluptatibus, debitis saepe repudiandae eligendi maxime nam error vero facilis. Accusantium, quae. Placeat nemo dignissimos quasi laudantium dicta. Quisquam cum officiis voluptatibus blanditiis repellat voluptatem magni assumenda non iusto reiciendis rem sunt natus, architecto molestiae itaque? Dicta, veritatis dignissimos doloremque omnis voluptatem animi nesciunt, illo officia fugiat cum sunt, minus velit itaque corrupti? Voluptatem!
-  </p>
+
+  <ScrollReveal
+  baseOpacity={1}
+  enableBlur={true}
+  baseRotation={6}
+  blurStrength={15}
+>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum eligendi tempore asperiores, aliquam repellat tempora corrupti sapiente aspernatur possimus esse illo eos dicta ratione veniam expedita, veritatis obcaecati aliquid? Aspernatur, sed excepturi incidunt, quibusdam totam cum saepe quam eum ipsa, doloremque neque quas magnam sapiente! Atque laboriosam excepturi odit sunt distinctio, commodi ipsum cupiditate tempora saepe deserunt debitis voluptate eius est, eveniet veniam aliquam suscipit nostrum similique. Placeat odio fuga voluptates, expedita error architecto, necessitatibus accusantium cum explicabo, tempore in quis ipsam aspernatur optio sint voluptas minus! Doloribus rerum aliquam facere porro inventore. Pariatur animi sed corrupti tempora voluptatibus expedita. Alias eveniet, quia excepturi recusandae sit corporis maxime dolores expedita porro, consequatur mollitia minus nostrum culpa consequuntur qui aperiam rem id molestiae. Harum odio minima id esse repellat fugit.
+</ScrollReveal>
+
+
 </div>
 
 </div>
