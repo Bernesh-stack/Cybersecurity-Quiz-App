@@ -3,7 +3,7 @@ import userImage from "../assets/user.jpeg"
 import { supabase } from '../supabaseClient'
 import { toast } from 'sonner'
 import { useNavigate } from 'react-router-dom'
-
+import ShinyText from './ShinyText/ShinyText'
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
 const navigate = useNavigate()
@@ -23,8 +23,8 @@ const navigate = useNavigate()
       <h1 className='text-lg font-semibold'>Cyber Security Training</h1>
 
       <div className='flex flex-row items-center gap-8 relative'>
-        <h1 className='cursor-pointer'>Home</h1>
-        <h1 className='cursor-pointer'>About</h1>
+      <ShinyText className='cursor-pointer'>Home</ShinyText>
+        <ShinyText className='cursor-pointer'>About</ShinyText>
 
 
         <div
@@ -39,7 +39,7 @@ const navigate = useNavigate()
             onClick={Logout}
           />
 
-          {/* Hover-safe dropdown */}
+
           <div
             className={`absolute right-0 mt-2 bg-white text-black rounded shadow-lg px-4 py-2 z-50 transition-all duration-200 ${
               showMenu ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
