@@ -14,12 +14,14 @@ import { Button } from '../Components/ui/button'
 import { motion } from "framer-motion";
 import Tilt from 'react-parallax-tilt';
 import ScrollReveal from '../Components/ScrollReveal'
+import { useNavigate } from 'react-router-dom'
 
 
 
 
 
 const Home = () => {
+  const navigate = useNavigate()
   const headingVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -243,7 +245,7 @@ const Home = () => {
   </h2>
    <p className=' md:px-10 text-gray-300 text-sm md:text-base'>From below you can take a quiz to test your knowledge of social engineering and phishing.</p>
    <div className='flex flex-col gap-4 align-middle justify-center items-center'>
-   <Button className='bg-blue-500 text-white mt-4 '>Start</Button></div>
+   <Button className='bg-blue-500 text-white mt-4 ' onClick={() => navigate("/quiz")}>Start</Button></div>
   </div>
 </div>
        
