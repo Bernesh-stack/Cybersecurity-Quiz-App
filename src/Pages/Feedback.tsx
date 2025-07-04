@@ -40,7 +40,7 @@ const Feedback = () => {
             className="w-full md:w-72 h-auto rounded-md object-cover"
           />
           <div>
-            <h2 className="text-xl font-semibold mb-2">Congratulations, {name}!</h2>
+            <h2 className="text-xl font-semibold mb-2">Congratulations, !</h2>
             <p className="text-gray-300 text-sm md:text-base">
               You've successfully completed the Social Engineering Awareness Training and earned the Cyber Warrior badge.
               Your dedication to learning and applying cybersecurity principles has paid off. Keep up the excellent work!

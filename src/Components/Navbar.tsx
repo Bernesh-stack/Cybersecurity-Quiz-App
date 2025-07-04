@@ -24,7 +24,7 @@ const navigate = useNavigate()
 
       <div className='flex flex-row items-center gap-8 relative'>
       <ShinyText className='cursor-pointer'>Home</ShinyText>
-        <ShinyText className='cursor-pointer'>About</ShinyText>
+        <ShinyText className='cursor-pointer' ><span onClick={() => navigate("/quiz")}>Quizz</span></ShinyText>
 
 
         <div
