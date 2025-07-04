@@ -1,6 +1,4 @@
-import React from 'react'
 import Navbar from '../Components/Navbar'
-import userImage from "../assets/user.jpeg"
 import backgroundImage from "../assets/background.png"
 import SplitHeading from '../Components/SplitHeading'
 import VariableText from '../Components/VariableText'
@@ -11,7 +9,7 @@ import CB from '../assets/CB.jpeg'
 import CB2 from '../assets/CB2.jpeg'
 import CB3 from '../assets/CB3.jpeg'
 import { Button } from '../Components/ui/button'
-import { motion } from "framer-motion";
+import { motion, easeOut } from "framer-motion";
 import Tilt from 'react-parallax-tilt';
 import ScrollReveal from '../Components/ScrollReveal'
 import { useNavigate } from 'react-router-dom'
@@ -29,20 +27,20 @@ const Home = () => {
       y: 0,
       transition: {
         duration: 0.7,
-        ease: "easeOut",
+        ease: easeOut,
       },
     },
   };
 
   const cardVariants = {
     hidden: { opacity: 0, y: 50 },
-    visible: (i) => ({
+    visible: (i:number) => ({
       opacity: 1,
       y: 0,
       transition: {
         delay: i * 0.3,
         duration: 0.6,
-        ease: "easeOut"
+        ease: easeOut
       }
     }),
   };
@@ -71,7 +69,7 @@ const Home = () => {
 
       <div className="px-4 py-8 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-6">
-          {[ // Cards content array for mapping
+          {[
             {
               icon: <Shield className="w-5 h-5 text-blue-400" />,
               title: "Level 1: Foundation",

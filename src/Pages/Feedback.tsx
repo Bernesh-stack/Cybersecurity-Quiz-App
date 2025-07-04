@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useLocation, useNavigate, Navigate } from "react-router-dom";
 import cyberImage from "../assets/cyberSecurity.png";
 import { Button } from "../Components/ui/button";
@@ -21,7 +21,7 @@ const Feedback = () => {
     return <Navigate to="/home" replace />;
   }
 
-  const { score, name } = state;
+  const { score,  } = state;
 
   return (
     <div className="min-h-screen bg-[#0B1120] flex items-center justify-center py-16 px-4">
