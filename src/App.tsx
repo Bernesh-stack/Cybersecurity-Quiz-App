@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Login from './Pages/Login'
 import Signup from './Pages/Signup'
@@ -10,7 +10,7 @@ function App() {
  
 
   return (
-    <>
+    <BrowserRouter>
     <Toaster richColors position="top-right" />
     <Routes>
       <Route path='/' element={<Login />} />
@@ -19,7 +19,7 @@ function App() {
       <Route path='/quiz' element={<Quiz/>}/>
       <Route path="/feedback" element={<Feedback />} />
     </Routes>
-    </>
+    </BrowserRouter>
   )
 }
 

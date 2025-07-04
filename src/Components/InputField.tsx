@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import  { useState } from "react"
 import { Input } from "./ui/input"
 import { Label } from "./ui/label"
 import { Button } from "./ui/button"
@@ -20,7 +20,7 @@ const Inputfield = ({Page}:{Page:string}) => {
         return
       }
     if(Page === 'Signup'){
-        const {data, error} = await supabase.auth.signUp({
+        const { error} = await supabase.auth.signUp({
             email: username,
             password: password,
         })
@@ -32,7 +32,7 @@ const Inputfield = ({Page}:{Page:string}) => {
         }
     }
     else{
-        const {data,error} = await supabase.auth.signInWithPassword({
+        const {error} = await supabase.auth.signInWithPassword({
             email: username,
             password: password,    
         })

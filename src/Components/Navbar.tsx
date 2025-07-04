@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import userImage from "../assets/user.jpeg"
 import { supabase } from '../supabaseClient'
 import { toast } from 'sonner'
